@@ -1,0 +1,44 @@
+*{
+    margin: 0px !important;
+    box-sizing: border-box;
+}
+
+.carousel-inner{
+    margin: auto !important;
+    height: 500px !important;
+    width: 75%;
+}
+
+.card{
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.img-container{
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-container img{
+    height: 100%;
+    transition: 2s;
+}
+
+.img-container img:hover{
+    transform: scale(1.5);
+}
+
+.bi-star-fill:hover{
+    color:black;
+
+}
+
+.bi-star:hover{
+    color:black;
+
+}
+
+.col-md-3{
+    background-color: #e5eaef;
+}
+
